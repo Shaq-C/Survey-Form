@@ -1,16 +1,30 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Satisfaction Survey</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
 </head>
 <body>
-    <h1>Satisfaction Survey</h1>
-    <p id="description">Thank your for taking the time to fill out our customer satisfaction survey.</p>
-    <form>
-        <h3>Name<h3>
-        <input type="text">
-        <h3>Email</h3>
-        <input type="email">
-
+    <!--Create a form -->
+    <form class="survey__form">  
+        <div class="form__control">
+            <label for="name" id="label__name">Name</label>
+            <!-- Input Type Text -->
+            <input type="text" id="name">
+        </div>
+        <div class="form__control">
+            <label for="email" id="label__email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="form__control">
+            <label for="age" id="label__age">Age</label>
+            <input type="text" id="age">
+        </div>
+        <div class="form__control">
+            <label for="role" id="label__role">Which option best describes you?</label>
+        </div>
     </form>
-
 </body>
+</html>
