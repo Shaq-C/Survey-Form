@@ -22,9 +22,42 @@
             <label for="age" id="label__age">Age</label>
             <input type="text" id="age">
         </div>
+        <!-- Select the dot menu -->
         <div class="form__control">
             <label for="role" id="label__role">Which option best describes you?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+            </select>
         </div>
+        <!-- Dropdown menu question -->
+        <div class="form__control">
+            <label for="recommend">Would you recommend our services to a friend?</label>
+            <input type="radio" id="recommend__1">Yes</input>
+            <input type="radio" id="recommend__2">No</input>
+            <input type="radio" id="recommend__3">Absolutley</input>
+        </div>
+        <!-- Checkbox question -->
+        <div class="form__control">
+            <label for="services">Which survices did you enjoy most?</label>
+                <small>(Check all that apply)</small>
+                <label for="input__1">
+                    <input type="checkbox"> Service 1</label>
+                <label for="input__2">
+                    <input type="checkbox"> Service 2</label>
+                <label for="input__3">
+                    <input type="checkbox"> Service 3</label>
+                <label for="input__4">
+                    <input type="checkbox"> Service 4</label>
+        </div>
+        <div class="form__control">
+            <label for="comment">Any comments or suggestions</label>
+            <!-- Multiline Comment -->
+            <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+        </div>
+        <!-- Submit button -->
+        <button type="submit" value="submit">Submit</button>
     </form>
 </body>
 </html>
